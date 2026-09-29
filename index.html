@@ -16,7 +16,7 @@
     mindar-image="imageTargetSrc: ./ARtargetImage.mind; maxTrack: 1 filterMinCF:0.001; filterBeta:30; missTolerance:30;" 
     color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" 
     device-orientation-permission-ui="enabled: false" 
-    vr-mode-ui="enabled: false"
+    vr-mode-ui="enabled: false"post-processing="effects: bloom; bloomThreshold: 0.4; bloomStrength: 6.5; bloomRadius: 2.4"
     id="scene"
     >
         <!-- Load an asset - GLTF Model -->
@@ -34,7 +34,7 @@
                 animation-mixer
                 position="0 0 0.0"
                 rotation="90 0 0"
-                scale="0.3 0.3 0.3"
+                scale="0.2 0.2 0.2"
                 src="#Planet"
                 id="DerPlanet"
             ></a-gltf-model>
